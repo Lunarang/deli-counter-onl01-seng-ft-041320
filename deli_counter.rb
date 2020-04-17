@@ -1,6 +1,7 @@
 def line(q)
   if q.size == 0 
     puts "The line is currently empty."
+<<<<<<< HEAD
   else
     numbered = []
     q.each_with_index {|name, index| numbered <<"#{index+1}. #{name}"}
@@ -22,3 +23,10 @@ def now_serving(q)
     q.shift
   end
 end
+=======
+  else 
+    puts "#{q}"
+  end
+end
+
+>>>>>>> e5d581d0ac309b48bb44b4d14c22c29bf259ec3e
